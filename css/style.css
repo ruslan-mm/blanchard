@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: local('OpenSansRegular'),
+        url('../fonts/OpenSans-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('OpenSansSemiBold'),
+        url('../fonts/OpenSans-SemiBold.woff2') format('woff2');
+        font-weight: 600;
+        font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('OpenSansBold'),
+        url('../fonts/OpenSans-Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+}
+
+:root {
+  --black: #000;
+  --darkblack: #666;
+  --mediumblack: #969696;
+  --lightblack: #333;
+  --white: #fff;
+  --grey: #ececec;
+  --darkgrey: #cacaca;
+  --darkgrey2: #999;
+  --darkgrey3: #b7b7b7;
+  --purple: #d1a9f0;
+  --purple2: #c283f3;
+  --purple3: #9d5cd0;
+  --purple4: #7943a4;
+  --green: #30BF39;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+p {
+  margin: 0;
+}
+
+input {
+  font-family: inherit;
+}
+
+section {
+  margin-bottom: 68px;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding: 0 10px 0 28px;
+}
+
+[class*="ground-pane"] {
+  filter: grayscale(1);
+}
